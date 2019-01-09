@@ -17,6 +17,10 @@ Javascript version of the assignment can be found [here](./javascript).
 
 Python version of the assignment can be found [here](./python).
 
+### Ruby
+
+Ruby version of the assignment can be found [here](./ruby).
+
 ### HTML & CSS
 
 Test assignment for markup engineers can be found [here](./html).
