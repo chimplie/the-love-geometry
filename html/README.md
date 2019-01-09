@@ -1,6 +1,15 @@
 Legolize
 ========
 
+Before working on the assignment we suggest you to read [why do we think](../WHY-TA-DEFENCE.md) that test assignment
+and it's defence is better way for you to express your skills and craftsmanship.
+
+Also please take a look at the document [describing the whole process](../PROCESS.md) to understand how the defence is
+held and what to expect from it.
+
+Intro
+-----
+
 Here is the Lego Land project consisting several steps which graded independently. The necessary exercises is only a
 [Step 3](#step-3-lego-land), everything else is optional.
 

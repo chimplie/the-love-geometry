@@ -1,6 +1,15 @@
 But a Whimper
 =============
 
+Before working on the assignment we suggest you to read [why do we think](../WHY-TA-DEFENCE.md) that test assignment
+and it's defence is better way for you to express your skills and craftsmanship.
+
+Also please take a look at the document [describing the whole process](../PROCESS.md) to understand how the defence is
+held and what to expect from it.
+
+Intro
+-----
+
 Here is the Lego Land project consisting several steps which graded independently. The necessary exercises are only a
 steps [1](#step-1-describe), [2](#step-2-plan-your-attack) and [3a](#step-3a-case-sensitive)/[3b](#step-3b-cucumber-time).
 
