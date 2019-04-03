@@ -10,9 +10,8 @@ held and what to expect from it.
 Intro
 -----
 
-Here is the "Not With a Bang" project consisting of several steps, which graded independently. All exercises are necessary, 
-especially [Step 4](#step-4-a-clockwork-cucumber), as QA Automation will be one of the key aspect of this position. 
-position.
+Here is the "Not With a Bang" project consisting of several steps, each graded independently. All exercises are necessary, 
+especially [Step 4](#step-4-a-clockwork-cucumber), as QA Automation will be one of the key aspect of this role.
 
 By completing each step of this home assignment you show-case some valuable expertise. Hence, you may pay attention
 to some steps more than others. Consider that steps from 1. to 3. prepare you for the better solution of the final 
