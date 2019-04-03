@@ -1,4 +1,4 @@
-But a Whimper
+Home Assignment: Not With a Bang
 =============
 
 Before working on the assignment we suggest you to read [why do we think](../WHY-TA-DEFENCE.md) that test assignment
@@ -11,7 +11,7 @@ Intro
 -----
 
 Here is the "Not With a Bang" project consisting of several steps, each graded independently. All exercises are necessary, 
-especially [Step 4](#step-4-a-clockwork-cucumber), as QA Automation will be one of the key aspect of this role.
+especially [Step 4](#step-4-a-clockwork-cucumber), as QA automation will be one of the key aspect of this role.
 
 By completing each step of this home assignment you show-case some valuable expertise. Hence, you may pay attention
 to some steps more than others. Consider that steps from 1. to 3. prepare you for the better solution of the final 
@@ -22,7 +22,7 @@ Technical requirements
 
 Pay attention to the following requirements. They are simple but necessary for your success.
 
-1. The solution should come in a form of a bundle (`*.tgz` or `*.zip`).
+1. The solution should come in the form of a bundle (`*.tgz` or `*.zip`).
 1. The name of the bundle should be `whimper-<your full name>-v<version number>`. The version number starts from `1`.
    We accept multiple versions of the assignment. The final grade will be calculated for the latest version of your
    assignment.
