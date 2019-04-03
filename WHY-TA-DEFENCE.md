@@ -1,16 +1,16 @@
 Why Test Assignment Defence?
 ============================
 
-The test assignment and their defence is in the heart of our recruitment policy. The reason why we shifted from the
-quizzes to this form of candidate evaluation is that formal tests do not give one to express their skills and attitude
-and therefore can not be a reliable source of information about candidate’s experience and level of interest in the
-proposed position. Simply speaking, if quizzes are too simple they show nothing, if they are too complex they can be
-either compromised (the person already knows an answer) or can put candidate into frustration preventing him or her to
-exercise their craftsmanship.
+Test assignments and their defence are in the heart of our recruitment process. 
 
-We must emphasize that despite the fact that engineering is a complex and hard the modern approach (and the Chimplie
-approach) lays in creating comfortable and open environment that forks for the people and where people receive support
-and their competition is not reduced to a zero-sum game. That means that if we want to “battle-test” a candidate we have
-to sandbox such environment. Which means that we do not put candidates under unnecessary stress but rather give him or
-her opportunity to express: their skills, ingenuity, responsibility, respect to their temporary teammate (the defence
-opponent).
+We felt that the formal interview tests / quizzes are not a reliable source of information about the candidate’s experience 
+and level of interest in the proposed position; they do not provide an opportunity to properly express one's skills and 
+attitude. Simply speaking, if quizzes are too simple they show nothing; if they are too complex they can be
+either compromised (the person already knows the answer) or can put candidates into frustration preventing them from
+exercising their craftsmanship. Hence why we shifted to home assignments.
+
+We believe that despite the fact that engineering is a complex craft, the modern approach lays in creating a comfortable and 
+open environment tailored for the individual, where the person receives support and where their competition is not reduced to 
+a zero-sum game. If we want to “battle-test” a candidate, we have to sandbox such an environment. This means we do not want to  
+put candidates under unnecessary stress, but rather give them an opportunity to express their skills, ingenuity, 
+responsibility, and respect to their temporary teammate (the defence opponent).
