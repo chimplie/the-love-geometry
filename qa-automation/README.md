@@ -10,20 +10,20 @@ held and what to expect from it.
 Intro
 -----
 
-Here is the "Not With a Bang" project consisting several steps which graded independently. All exercises are necessary
-but the [Step 4](#step-4-a-clockwork-cucumber) is essential since you are applying to the QA Automation
+Here is the "Not With a Bang" project consisting of several steps, which graded independently. All exercises are necessary, 
+especially [Step 4](#step-4-a-clockwork-cucumber), as QA Automation will be one of the key aspect of this position. 
 position.
 
-By completing each step of this home assignment you proof that you have some valuable feature. So, you may pay attention
-to some more than another. But remember that all steps from 1. to 3. preparing you for the better solution for the
-[Step 4](#step-4-a-clockwork-cucumber) which is the summit of the home assignment.
+By completing each step of this home assignment you show-case some valuable expertise. Hence, you may pay attention
+to some steps more than others. Consider that steps from 1. to 3. prepare you for the better solution of the final 
+[Step 4](#step-4-a-clockwork-cucumber), which is the summit of this home assignment.
 
 Technical requirements
 ----------------------
 
 Pay attention to the following requirements. They are simple but necessary for your success.
 
-1. The solution SHOULD come in a form of a bundle (`*.tgz` or `*.zip`).
+1. The solution should come in a form of a bundle (`*.tgz` or `*.zip`).
 1. The name of the bundle should be `whimper-<your full name>-v<version number>`. The version number starts from `1`.
    We accept multiple versions of the assignment. The final grade will be calculated for the latest version of your
    assignment.
@@ -37,7 +37,7 @@ Pay attention to the following requirements. They are simple but necessary for y
 Meet Noisli
 -----------
 
-[Noisli](https://www.noisli.com/) is the nice and simple site we will use in our test assignment. It helps to organize
+[Noisli](https://www.noisli.com/) is a nice and simple site we will use in our test assignment. It helps to organize
 user's sound environment. Explore it before staring to work on the assignment. 
 
 Step 1. Describe
@@ -67,7 +67,7 @@ Step 4. A Clockwork Cucumber
 ----------------------------
 
 Use your favorite tool to convert Cucumber into automated tests. You can use anything you think is appropriate here. It
-is possible to automate only a most important subset of your Cucumber scenarios to pass this task.
+is possible to automate only the most important subset of your Cucumber scenarios to pass this task.
 
 Obvious suggestions:
 * [Cucumber.js](https://github.com/cucumber/cucumber-js) — Javascript
