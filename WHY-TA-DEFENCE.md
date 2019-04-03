@@ -11,6 +11,6 @@ exercising their craftsmanship. Hence why we shifted to home assignments.
 
 We believe that despite the fact that engineering is a complex craft, the modern approach lays in creating a comfortable and 
 open environment tailored for the individual, where the person receives support and where their competition is not reduced to 
-a zero-sum game. If we want to “battle-test” a candidate, we have to sandbox such an environment. This means we do not want to  
-put candidates under unnecessary stress, but rather give them an opportunity to express their skills, ingenuity, 
-responsibility, and respect to their temporary teammate (the defence opponent).
+a zero-sum game. If we want to “battle-test” a candidate, we have to sandbox such an environment. Not to put candidates under 
+unnecessary stress, but rather give them an opportunity to express their skills, ingenuity, responsibility, and respect to 
+their temporary teammate (the defence opponent).
