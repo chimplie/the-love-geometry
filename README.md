@@ -32,3 +32,7 @@ Test assignment for QA engineers can be found [here](./qa).
 ### QA Automation
 
 Test assignment for QA Automation engineers can be found [here](./qa-automation).
+
+### DevOps
+
+Test assignment for QA Automation engineers can be found [here](./devops).
