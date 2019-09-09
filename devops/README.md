@@ -10,7 +10,7 @@ held and what to expect from it.
 Intro
 -----
 
-We prepared for you a simple application called [Chimplie Debug App](https://github.com/chimplie/debug-app/tree/0.0.1).
+We prepared for you a simple application called [Chimplie Debug App](https://github.com/chimplie/debug-app/tree/0.0.2).
 We want you to create an infrastructure for this application in AWS and deploy the application to the cloud. There are
 several steps in this assignment which allow you to gradually express your mastership.
 
@@ -51,9 +51,9 @@ Pay attention to the following requirements. They are simple but necessary for y
 Get Ready for Debug
 -------------------
 
-Everything you need to run and build debug application is described in its [documentation](https://github.com/chimplie/debug-app/blob/0.0.1/README.md).
+Everything you need to run and build debug application is described in its [documentation](https://github.com/chimplie/debug-app/blob/0.0.2/README.md).
 
-Note that you have to use version [`0.0.1`](https://github.com/chimplie/debug-app/releases/tag/0.0.1). Do not use master
+Note that you have to use version [`0.0.2`](https://github.com/chimplie/debug-app/releases/tag/0.0.2). Do not use master
 or other versions of the application since they may be not properly tested or may have different behaviour.
 
 Security Requirements
@@ -84,7 +84,7 @@ infrastructure.
 1. Create a ECS cluster and deploy application to it.
 1. There should be two instances of the application in the cluster, call it `main` and `worker`.
 1. There should be a proxy route defined in `main` application to `worker` from `/worker/status` to `/status`. Check
-   Debug App [documentation](https://github.com/chimplie/debug-app/blob/0.0.1/README.md) for details.
+   Debug App [documentation](https://github.com/chimplie/debug-app/blob/0.0.2/README.md) for details.
 1. Worker should check Postgres database and Redis statuses.
 1. The master service should be scaled to two tasks and be accessible via (application) load balancer.
 1. Assign elastic IP to the load balancer.
@@ -99,7 +99,7 @@ Step 2. Golem
 -------------
 
 This step shows that you master infrastructure as code approach. We want you to describe
-[Debug App](https://github.com/chimplie/debug-app/blob/0.0.1/README.md) as a [Terraform](https://www.terraform.io/)
+[Debug App](https://github.com/chimplie/debug-app/blob/0.0.2/README.md) as a [Terraform](https://www.terraform.io/)
 declaration and deploy it to AWS.
 
 ### Requirements for Golem
@@ -117,7 +117,7 @@ appearance you can drop them. But in this case you should explain why these rest
 1. There should be two instances of the application in the cluster, call it `main` and `worker`.
 1. It is up to you whether put everything into one multi-container service or use different services.  
 1. There should be a proxy route defined in `main` application to `worker` from `/worker/status` to `/status`. Check
-   Debug App [documentation](https://github.com/chimplie/debug-app/blob/0.0.1/README.md) for details.
+   Debug App [documentation](https://github.com/chimplie/debug-app/blob/0.0.2/README.md) for details.
 1. Worker should check Postgres database and Redis statuses.
 1. The `main` service should be scaled to two tasks and be accessible via (application) load balancer.
 1. Assign elastic IP to the load balancer or attach to Route 53.
@@ -152,7 +152,7 @@ data in parameter store as well.
 (this should bw skipped). This behaviour is not fully supported by Terraform, so you need to improvise. Therefore this
 requirement is considered as optional for intermediate Terraform practitioners (but not for those who consider
 themselves masters of this tool).
-1. The debug app can run custom shell commands (check the [docs](https://github.com/chimplie/debug-app/blob/0.0.1/README.md)).
+1. The debug app can run custom shell commands (check the [docs](https://github.com/chimplie/debug-app/blob/0.0.2/README.md)).
 Try to find a way to imitate high CPU and RAM consumption and setup ECS tasks auto-scaling for master based on the
 metric you think is most appropriate.
 1. Add EC2 instances auto-scaling in addition to tasks count scaling.
