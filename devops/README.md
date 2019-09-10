@@ -56,6 +56,11 @@ Everything you need to run and build debug application is described in its [docu
 Note that you have to use version [`0.0.2`](https://github.com/chimplie/debug-app/releases/tag/0.0.2). Do not use master
 or other versions of the application since they may be not properly tested or may have different behaviour.
 
+> ### Attention!
+>
+> In all exercises below you should never deploy the whole `docker-compose.yml`. It exists only for development
+> purposes. Instead, you should create all services (i.e. Debug App, database, Redis, et c.) independently.
+
 Security Requirements
 ---------------------
 
