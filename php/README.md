@@ -37,16 +37,16 @@ Pay attention to the following requirements. They are simple but necessary for y
 1. There should be an OBVIOUS way to run the project described in the `README.md` provided in the root of the
    bundle. All command line steps should be described as if you are talking to a person without programming skills.
 1. If project has prerequisites there should be a how-to manual for installing them.
-1. We want you to use Python 3.5+.
+1. We want you to use PHP 7.3+.
 1. All UI solutions you create should be titled with your full name and the name of the project.
-   1. The first unit of your Jupyter notebook should include your full name.
+   1. The first unit of your Jupyter notebook (if you'll decide to use it) should include your full name.
    1. All possible pages of your web application ([Step 5](#step-5-the-matrix-of-love-optional)) should include a
       heading with your full name at the top. Also your full name should be the first thing at the page title.
 
 Get Ready for PEG
 -----------------
 
-Take a look at [pyPEG](https://fdik.org/pyPEG/). It's a Python parser for
+Take a look at [PHP PEG](https://github.com/hafriedlander/php-peg). It's a PHP parser for
 [parser expression grammars](https://www.wikiwand.com/en/Parsing_expression_grammar) which is very similar to
 context-free grammars you may know from the Computer Science courses.
 
@@ -54,6 +54,8 @@ Don't be afraid! It's not as scary as it seems (:
 
 It may be hard to design a grammar at the first time. There is a similar library for Javascript which has a
 [live editor](https://pegjs.org/online) where you can start to play with grammar definitions.
+
+There are another PEG parser implementations for PHP. You can use whatever library you want.
 
 Step 1. The Language of Love and Destruction
 --------------------------------------------
@@ -73,18 +75,18 @@ Each sentence here represents a state of the evolving love story.
 Note that there are **multiline** sentences (like the last one)!
  
 We want to write a parser for this language that for each line returns a structure of relations of people mentioned in
-it. Such structure can be (but not necessary) like the following:
+it. Such structure can be (but not necessary) like the following (JSON):
 
-```python
+```json
 [
   {
-    'A': { 'loves': ['B'] },
-    'B': { 'hates': ['A'] }
+    "A": { "loves": ["B"] },
+    "B": { "hates": ["A"] }
   },
   {
-    'A': { 'hates': ['B'], 'loves': ['D'] },
-    'B': { 'loves': ['C'] },
-    'D': { 'hates': 'A' }
+    "A": { "hates": ["B"], "loves": ["D"] },
+    "B": { "loves": ["C"] },
+    "D": { "hates": "A" }
   }
 ]
 ```
@@ -122,9 +124,8 @@ Step 2. Show Me Your Love
 
 Now let's create an ecosystem for our language.
 
-First of all we want yo to create a simple web application (pick whatever you want but we think
-[Flask](http://flask.pocoo.org/) or [aiohttp](http://aiohttp.readthedocs.io/en/stable/) will be enough) with one API
-endpoint which receives a love story and responds with the parsed structure.
+First of all we want yo to create a simple web application (we do not restrict you on the choice of the web server) with
+one API endpoint which receives a love story and responds with the parsed structure.
 
 The next thing is to write a simple client library that talks to that endpoint and parses written love stories to their
 structural representations. 
@@ -132,14 +133,24 @@ structural representations.
 There should be a minimal error reporting with HTTP codes and error descriptions in case when client sends invalid love
 statements.
 
-We also want you to create a simple [Jupyter Notebook](http://jupyter.org/) with a piece of the code which talks to the
-love story server and prints response in an easy readable way.
+We also suggest you to create a simple [Jupyter Notebook](http://jupyter.org/) with a piece of the code which talks to the
+love story server and prints response in an easy readable way. To make PHP work in the Jupyter you can use
+[Jupyter-PHP](https://github.com/Litipk/Jupyter-PHP) kernel. The installation process is described
+[here](https://litipk.github.io/Jupyter-PHP-Installer/).
+
+If you don't like Jupyter interactive environment (seriously, why?) you can create a web interface where user can write
+their love stories. In that case you have to process all possible user input errors and propagate them to the client. 
+
+> #### Note!
+>
+> If you decide to not to create any UX then Jupyter notebook is mandatory!
 
 ### Completion Checklist
 
 - [ ] Server application that parses love stories.
 - [ ] Client library that talks to that server.
-- [ ] Jupyter notebook where we can play with the client and send requests to the server.
+- [ ] Jupyter notebook where we can play with the client and send requests to the server or web UI where we can write
+      love stories and see results.
 - [ ] Manual that describes how to use the start the app and the notebook. 
 
 ### More Summits Ahead
@@ -182,7 +193,7 @@ controller](https://www.hughgrigg.com/posts/keep-controllers-thin/).
 - [ ] Keep the possibility for the pure (unchecked) run of the parser.
 - [ ] Propagate errors to the client.
 - [ ] Document your decisions.
-- [ ] Add or update the code in the Jupyter notebook to test your solution.
+- [ ] Add or update the code in the Jupyter notebook to test your solution or update the web UI.
 
 Step 4. Circles of Affection (optional)
 ---------------------------------------
@@ -217,7 +228,7 @@ Whatever you do, don't put the logic inside the controller. Just [don't](https:/
 - [ ] Implement the algorithm that searches for affection circles.
 - [ ] Add the API endpoint.
 - [ ] Update the client library.
-- [ ] Add or update the code in the Jupyter notebook to test your solution.
+- [ ] Add or update the code in the Jupyter notebook to test your solution or update the web UI.
 
 Step 5. The Matrix of Love (optional)
 -------------------------------------
@@ -258,21 +269,14 @@ Ulises hates Theodoric.
 
 Much better!
 
-To complete this assignment you should serve an HTML page with a form consisting a text area field for a love story and
-a submit button. Once pressed we want you to render a page with love representation tables which corresponds to a
-written love story.
-
-You can use AJAX requests or reload the page with the submitted GET or POST parameters. It's completely up to you.
- 
-In case of a wrong input you should show corresponding errors.
-
 To have all possible credits you also have to introduce `mutually` keyword to the love language parser.
 
 ### Completion Checklist
 
 - [ ] Create a web page with a text area for a love story and a submit button.
 - [ ] Render love representation tables for a submitted story.
-- [ ] Document your solution in the `README.md`. 
+- [ ] Document your solution in the `README.md`.
+- [ ] Add or update the code in the Jupyter notebook to test your solution or update the web UI.
 
 ### Excellent Mark Checklist 
 

@@ -17,6 +17,10 @@ Javascript version of the assignment can be found [here](./javascript).
 
 Python version of the assignment can be found [here](./python).
 
+### PHP
+
+Python version of the assignment can be found [here](./php).
+
 ### Ruby
 
 Ruby version of the assignment can be found [here](./ruby).
