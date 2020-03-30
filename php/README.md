@@ -136,14 +136,22 @@ statements.
 We also suggest you to create a simple [Jupyter Notebook](http://jupyter.org/) with a piece of the code which talks to the
 love story server and prints response in an easy readable way. To make PHP work in the Jupyter you can use
 [Jupyter-PHP](https://github.com/Litipk/Jupyter-PHP) kernel. The installation process is described
-[here](https://litipk.github.io/Jupyter-PHP-Installer/).
+[here](https://litipk.github.io/Jupyter-PHP-Installer/). 
 
-If you don't like Jupyter interactive environment (seriously, why?) you can create a web interface where user can write
-their love stories. In that case you have to process all possible user input errors and propagate them to the client. 
+If you don't like Jupyter interactive environment (seriously, why?) you don't need to create notebooks at all. In such
+case you have to create a web UI with all necessary inputs for writing love stories. You also have to propagate all
+possible errors to the user. And, yes, we prefer applications that immediately responds to user actions and shows live
+updates for their love stories instead of waiting until he or she press the “Parse” button to reload the page. 
+
+> #### Attention!
+>  
+> If you decide to not to create any web UI then Jupyter notebook is mandatory!
 
 > #### Note!
->
-> If you decide to not to create any UX then Jupyter notebook is mandatory!
+>  
+> You don't need a PHP client library if you choose to create only web UI interface. But in this case, the web page
+> should be a client: e.g. we prefer it talking to server via AJAX rather then reload each time the user changes their
+> love story.
 
 ### Completion Checklist
 
