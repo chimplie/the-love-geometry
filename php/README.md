@@ -39,8 +39,7 @@ Pay attention to the following requirements. They are simple but necessary for y
 1. If project has prerequisites there should be a how-to manual for installing them.
 1. We want you to use PHP 7.3+.
 1. All UI solutions you create should be titled with your full name and the name of the project.
-   1. The first unit of your Jupyter notebook (if you'll decide to use it) should include your full name.
-   1. All possible pages of your web application ([Step 5](#step-5-the-matrix-of-love-optional)) should include a
+   1. All possible pages of your web application (starting from [Step 2](#step-2-show-me-your-love)) should include a
       heading with your full name at the top. Also your full name should be the first thing at the page title.
 
 Get Ready for PEG
@@ -133,19 +132,10 @@ structural representations.
 There should be a minimal error reporting with HTTP codes and error descriptions in case when client sends invalid love
 statements.
 
-We also suggest you to create a simple [Jupyter Notebook](http://jupyter.org/) with a piece of the code which talks to the
-love story server and prints response in an easy readable way. To make PHP work in the Jupyter you can use
-[Jupyter-PHP](https://github.com/Litipk/Jupyter-PHP) kernel. The installation process is described
-[here](https://litipk.github.io/Jupyter-PHP-Installer/). 
-
-If you don't like Jupyter interactive environment (seriously, why?) you don't need to create notebooks at all. In such
-case you have to create a web UI with all necessary inputs for writing love stories. You also have to propagate all
-possible errors to the user. And, yes, we prefer applications that immediately responds to user actions and shows live
-updates for their love stories instead of waiting until he or she press the “Parse” button to reload the page. 
-
-> #### Attention!
->  
-> If you decide to not to create any web UI then Jupyter notebook is mandatory!
+Create a web UI with all necessary inputs for writing love stories. You can pick any web server and framework you like.
+You also have to propagate all possible errors to the user. Also we prefer applications that immediately responds to
+user actions and show live updates for their love stories instead of waiting until he or she press the “Parse” button to
+reload the page. 
 
 > #### Note!
 >  
@@ -157,9 +147,8 @@ updates for their love stories instead of waiting until he or she press the “P
 
 - [ ] Server application that parses love stories.
 - [ ] Client library that talks to that server.
-- [ ] Jupyter notebook where we can play with the client and send requests to the server or web UI where we can write
-      love stories and see results.
-- [ ] Manual that describes how to use the start the app and the notebook. 
+- [ ] Web UI where we can write love stories and see results.
+- [ ] Manual that describes how to use and start all the application parts and. 
 
 ### More Summits Ahead
 
@@ -201,7 +190,7 @@ controller](https://www.hughgrigg.com/posts/keep-controllers-thin/).
 - [ ] Keep the possibility for the pure (unchecked) run of the parser.
 - [ ] Propagate errors to the client.
 - [ ] Document your decisions.
-- [ ] Add or update the code in the Jupyter notebook to test your solution or update the web UI.
+- [ ] Update your web UI whenever necessary.
 
 Step 4. Circles of Affection (optional)
 ---------------------------------------
@@ -225,7 +214,7 @@ In order to complete this exercise you have to design and implement an algorithm
 sate of love.
 
 We want you to create an API endpoint which responses with a list of such circles for a given love story, update the
-client library and extend the Jupyter notebook with a new snippet of code that tests this exercise.
+client library and extend your web UI to present this exercise.
 
 The algorithm itself can be implemented at the level of the parser library or as a part of the application.
 
@@ -236,7 +225,7 @@ Whatever you do, don't put the logic inside the controller. Just [don't](https:/
 - [ ] Implement the algorithm that searches for affection circles.
 - [ ] Add the API endpoint.
 - [ ] Update the client library.
-- [ ] Add or update the code in the Jupyter notebook to test your solution or update the web UI.
+- [ ] Update your web UI whenever necessary.
 
 Step 5. The Matrix of Love (optional)
 -------------------------------------
@@ -284,7 +273,7 @@ To have all possible credits you also have to introduce `mutually` keyword to th
 - [ ] Create a web page with a text area for a love story and a submit button.
 - [ ] Render love representation tables for a submitted story.
 - [ ] Document your solution in the `README.md`.
-- [ ] Add or update the code in the Jupyter notebook to test your solution or update the web UI.
+- [ ] Update your web UI whenever necessary.
 
 ### Excellent Mark Checklist 
 
