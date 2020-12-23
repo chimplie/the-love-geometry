@@ -7,6 +7,8 @@ and it's defence is a better way for you to express your skills and craftsmanshi
 Also please take a look at the document [describing the whole process](../PROCESS.md) to understand how the defence is
 held and what to expect from it.
 
+![Pied Piper of Hamelin](https://upload.wikimedia.org/wikipedia/commons/f/fa/Pied_piper.jpg "Pied Piper of Hamelin")
+
 Intro
 -----
 
