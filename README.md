@@ -9,6 +9,10 @@ You can read about the [whole process](PROCESS.md) and why do we think that
 List of Assignments
 -------------------
 
+### Data Analysis
+
+Javascript version of the assignment can be found [here](./data-analyst).
+
 ### Javascript
 
 Javascript version of the assignment can be found [here](./javascript).
