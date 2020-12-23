@@ -2,7 +2,7 @@ Home Assignment: Pied Piper
 ===========================
 
 Before working on the assignment we suggest you to read [why do we think](../WHY-TA-DEFENCE.md) that test assignment
-and it's defence is a better way for you to express your skills and craftsmanship.
+and its defence is a better way for you to express your skills and craftsmanship.
 
 Also please take a look at the document [describing the whole process](../PROCESS.md) to understand how the defence is
 held and what to expect from it.
@@ -12,14 +12,13 @@ held and what to expect from it.
 Intro
 -----
 
-Here is the Pied Piper project consisting several steps which graded independently. The necessary exercise is
+Here is the Pied Piper project consisting of several steps which are graded independently. The necessary exercise is
 [Step 1](#step-1-lower-saxonian-blow). Everything else is optional.
 
 By completing each step of this home assignment you proof that you have some valuable feature. So, it's ok to not to
 complete all of them.
 
-But note that poor implementation of necessary steps won't give you enough grade. Which means that working on some
-optional stuff may be a wise decision.
+But note that poor implementation of necessary steps won't give you enough grade.
 
 Technical Requirements
 ----------------------
@@ -135,7 +134,7 @@ We are interested in two types of predictions:
 * Will the order be completed?
 * What is the estimated completion time for the order?
 
-Create two predictive models that answers on the question below. For each model:
+Create two predictive models that answer the question above. For each model:
 
 1. Provide predictions for missing values in our dataset. 
 1. Provide model's KPIs like accuracy, precision or recoil.
@@ -153,7 +152,7 @@ Create two predictive models that answers on the question below. For each model:
 
 ### Notes on Reproducibility
 
-Since is about reproducing results. Although we are okay with any tools for statistical modeling, we embrace open source
+Science is about reproducing results. Although we are okay with any tools for statistical modeling, we embrace open source
 and cross platform solution. Therefore, in the context of this assignment, Octave is better than MatLab or SPSS and
 Python/R is better than Octave. If you are going to use proprietary tools, you are expected to provide a detailed
 (but not necessary technical) explanation of how these tool implement corresponding algorithms.
