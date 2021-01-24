@@ -47,7 +47,8 @@ Pay attention to the following requirements. They are simple but necessary for y
 Welcome to Imaginarystan
 ---------------------
 
-Imaginarystan is a small country, that has single hospital, which records all COVID-19 cases in single Excel file
+Imaginarystan is a small country, that has single hospital, which records all COVID-19 cases in single Excel file.
+
 Here is the [link](https://drive.google.com/file/d/1EGBny-NJGcr3_CT-oAsMDkwOmEPVGybU/view?usp=sharing) to that file.
 
 Be careful, this Excel was filled by humans, so for sure it contains mistakes and some data inconsistency.
@@ -62,7 +63,7 @@ Your app should have an endpoint, that will accept Excel file, in the format pro
 and upload COVID-19 cases from the file.
 This endpoint should be secured, so only hospital personal could use it.
 The upload should work incrementally, so if Excel file is uploaded second time, it should update info
-about exiting COVID-19 cases and add info about new COVID-19 cases.
+about existing COVID-19 cases and add info about new COVID-19 cases.
 
 
 An app should have another public endpoint, that will return info about COVID-19 cases.
