@@ -13,7 +13,7 @@ Intro
 Here is the "Not With a Bang" project consisting several steps which graded independently. The necessary exercises are only a
 steps [1](#step-1-describe), [2](#step-2-plan-your-attack) and [3a](#step-3a-case-sensitive)/[3b](#step-3b-cucumber-time).
 
-In optional [Step 4](#step-4-a-clockwork-cucumber-optional) you can try yourself as an automation testing engineer. This
+In optional [Step 4](#step-4-api-time-optional) you can try yourself as an automated testing engineer. This
 is a star-type of assignment. We do not expect you to finish it but we will love to work with a person who can see
 outside of the box of his/ner competency and specialisation.
 
@@ -36,56 +36,43 @@ Pay attention to the following requirements. They are simple but necessary for y
 1. All texts should be written in English.
 1. You SHOULD NOT present this solution publicly. This will cause an immediate and inexcusable failure (:
 
-Meet Noisli
------------
+Meet Todo.ly
+------------
 
-[Noisli](https://www.noisli.com/) is the nice and simple site we will use in our test assignment. It helps to organize
-user's sound environment. Explore it before staring to work on the assignment. 
+[Todo.ly](http://todo.ly) is a simple site we will use in our test assignment. It helps to organize user's tasks. Explore it before staring to work on the assignment.  
 
 Step 1. Describe
 ----------------
 
-Write a short but complete description of the Noisli project. Try to focus on the most important parts of the project.
+Write a short but complete description of the Todo.ly project. Try to focus on the most important parts of the project.
 Describe what the application gives to the user. Avoid marketing stereotypes and promotion. More facts, less sentiments.   
 
 
 Step 2. Plan your Attack
 ------------------------
 
-Here we want you to write a [test plan](https://en.wikipedia.org/wiki/Test_plan) for the Noisli project. You may use
-[this one](https://www.softwaretestinghelp.com/test-plan-sample-softwaretesting-and-quality-assurance-templates/) as a
-template. Try to fill as much parts as possible. For those paragraphs you will decide not to fill give a clear
-explanation why it is not relevant.
+Here we would like you to write a [test plan](https://en.wikipedia.org/wiki/Test_plan) for the Todo.ly project. You may use
+[one of these](https://strongqa.com/qa-portal/testing-docs-templates/test-plan) as a template (or come up with your own, it's up to you). Try to fill as many parts as possible. For those paragraphs you will decide not to fill give a clear explanation why it is not relevant.
 
 Step 3a. Case Sensitive
 -----------------------
 
-Write test scenarios for main functionality of Noisly application. Organise your scenarios in suites. Prioritize your
-tests.
+Please write test scenarios for main functionality of Todo.ly application. Use the format that you think is best (test cases, checklists, etc.). Don't aim for a full coverage, let's instead focus on priorities.
 
-You can skip this step if you want to use [Cucumber](https://docs.cucumber.io/cucumber/) you can skip this task and
+If you want to use [Cucumber](https://docs.cucumber.io/cucumber/) you can skip this task and
 proceed to [Step 3b](#step-3b-cucumber-time).
 
 Step 3b. Cucumber Time
 ----------------------
 
-Write test scenarios for main functionality of Noisly application using [Cucumber](https://docs.cucumber.io/cucumber/).
-Organise your scenarios in feature suits each in a separate file.
+Write test scenarios for main functionality of Todo.ly application using [Cucumber](https://docs.cucumber.io/cucumber/).
+Organise your scenarios in feature suits each in a separate file. Don't aim for a full coverage, let's instead focus on priorities. Add a short contents for Cucumber feature files in your PDF file or `README.md`. Prioritize your tests in that list.
 
-Add a short contents for Cucumber feature files in your PDF file or `README.md`. Prioritize your tests in that list.
+If you'd rather use a different format, feel free to tackle [Step 3a](#step-3a-case-sensitive) instead. 
 
-Step 4. A Clockwork Cucumber (optional)
----------------------------------------
+Step 4. API Time (optional)
+----------------
 
-Only for those who accomplished [Step 3b](#step-3b-cucumber-time).
+Please use your favorite tool to to cover Todo.ly [Public API](http://todo.ly/ApiWiki/) with functional tests. Of course, you are not expected to cover all, just choose whatever you think is most important (given the limited amount of time and resources that can be spent on this).
 
-Use your favorite tool to convert Cucumber into automated tests. You can use anything you think is appropriate here. It
-is possible to automate only a most important subset of your Cucumber scenarios to pass this task.
-
-Obvious suggestions:
-* [Cucumber.js](https://github.com/cucumber/cucumber-js) — Javascript
-* [Letuce](http://lettuce.it/) — Python
-* [Cucumber for Rails](https://github.com/cucumber/cucumber-rails) — Ruby on Rails (still implies overhead in a form of
-  Rails app) 
-
-Ensure that `README.md` contains all installation and run instructions for your tests.
+You are free to use whatever tool you feel comfortable with (although we recommend to use Python as a main technology). Ensure that `README.md` contains all installation and run instructions for your tests.
