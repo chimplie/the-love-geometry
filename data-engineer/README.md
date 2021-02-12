@@ -61,7 +61,7 @@ Create an app that will store all the data regarding new virus cases in Imaginar
 Your app should have an endpoint that accepts Excel files in the format provided by the link
 and uploads new virus cases from the file.
 This endpoint should be secured, so that only hospital personal is able use it.
-The upload should work incrementally, so if the Excel file is uploaded a second time, it will update the data concerning
+The upload should work incrementally, so if the Excel file is uploaded a second time, it will update the data containing
 the existing peple and add the data on new people. 
 
 
