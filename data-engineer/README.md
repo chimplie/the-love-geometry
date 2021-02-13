@@ -48,7 +48,7 @@ Welcome to Imaginarystan
 
 Imaginarystan is a small country with has a single hospital that records all new hospitalizations in a single Excel file.
 
-Here is the [link](https://drive.google.com/file/d/1EGBny-NJGcr3_CT-oAsMDkwOmEPVGybU/view?usp=sharing) to that file.
+Here is the [link](https://docs.google.com/spreadsheets/d/1J5xRxRXT4if17rAeo70Xt-WKZ3n9nmv1) to that file.
 
 Be careful, the file was poopulated by humans, so you will definitely stumble upon mistakes and data inconsistencies.
 That is where we need you and your data engineering skills.
