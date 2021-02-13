@@ -70,7 +70,7 @@ The app response should include the following information:
 1. Count of recoveries
 1. Count of deaths
 
-The endpoint should have an optional `date` parameter which, if passed, should filter cases by date,
+The endpoint should have an optional `date` parameter which, if passed, should filter hospitalized people by date,
 otherwise return lifetime data.
 There is no information on the date of death in the Excel file, so if the `date` parameter is passed, count of deaths should not be returned.
 
