@@ -33,14 +33,14 @@ Technical Requirements
 Pay attention to the following. They are necessary if you want to succeed at this home assignment.
 
 1. The solution SHOULD come in the form of a code bundle (`*.tgz` or `*.zip`).
-1. The name of the bundle should be `imaginarystan-health-<your full name>-v<version number>`. The version number starts from
+2. The name of the bundle should be `imaginarystan-health-<your full name>-v<version number>`. The version number starts from
    `1`. You are allowed to submit multiple versions of the assignment. You will be graded only on the latest version of your
    assignment.
-1. You SHOULD not present this solution publicly. This will cause an immediate and inexcusable failure (:
-1. There should be an OBVIOUS way to run the project described in the `README.md` provided in the root of the
+3. You SHOULD NOT share or post your solution anywhere. Failure to comply with this policy will result in immediate disqualification.
+4. There should be an OBVIOUS way to run the project described in the `README.md` provided in the root of the
    bundle. All command line steps should be described as if you are talking to a person without any programming skills.
-1. If the project has prerequisites, you should also provide a how-to manual instructing how to install them. 
-1. We want you to use Python 3.6+.
+5. If the project has prerequisites, you should also provide a how-to manual instructing how to install them. 
+6. We want you to use Python 3.6+.
 
 
 Welcome to Imaginarystan
@@ -66,9 +66,9 @@ The upload should work incrementally. If the Excel file is uploaded a second tim
 
 The app should have another public endpoint returning information on the new hospitalizations. 
 The app response should include the following information:
-1. Count of hospitalizations
-1. Count of recoveries
-1. Count of deaths
+1) Count of hospitalizations
+2) Count of recoveries
+3) Count of deaths
 
 The endpoint should have an optional `date` parameter which, if passed, should filter hospitalized people by date,
 otherwise return lifetime data.
