@@ -51,8 +51,8 @@ Describe what the application gives to the user. Avoid marketing stereotypes and
 Step 2. Plan your Attack
 ------------------------
 
-Here we would like you to write a [test plan](https://en.wikipedia.org/wiki/Test_plan) for the Todo.ly project. You may use
-[one of these](https://strongqa.com/qa-portal/testing-docs-templates/test-plan) as a template (or come up with your own, it's up to you). Try to fill as many parts as possible. For those paragraphs you will decide not to fill give a clear explanation why it is not relevant.
+Now, given you are familiar with the product, we ask you to outline the overall QA strategy that you would suggest for this product. For example, what to test, when, how, by whom, how would you incorporate the QA process into SDLC. Don't go into too much depth, we're interested in your general vision.
+Please assume that the team behind the product is a cross functional agile team.
 
 Step 3a. Case Sensitive
 -----------------------
