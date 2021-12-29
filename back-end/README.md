@@ -85,13 +85,13 @@ it. Such structure can be (but not necessary) like the following:
 ```json
 [
   {
-    'A': { 'loves': ['B'] },
-    'B': { 'hates': ['A'] }
+    "A": { "loves": ["B"] },
+    "B": { "hates": ["A"] }
   },
   {
-    'A': { 'hates': ['B'], 'loves': ['D'] },
-    'B': { 'loves': ['C'] },
-    'D': { 'hates': 'A' }
+    "A": { "hates": ["B"], "loves": ["D"] },
+    "B": { "loves": ["C"] },
+    "D": { "hates": "A" }
   }
 ]
 ```
