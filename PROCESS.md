@@ -1,4 +1,4 @@
-Tests Assignment and it's Defence
+Solution Implementatiion & Defence
 =================================
 
 The idea behind offerring a challenge, followed by an opportunity to present and defend the solution, is to create an environment that helps people to better
