@@ -1,13 +1,12 @@
 Tests Assignment and it's Defence
 =================================
 
-The idea of tests assignment (TA) and it's defence is to create a situation that helps people to better express their
-skills.
+The idea behind offerring a challenge, followed by an opportunity to present and defend the solution, is to create an environment that helps people to better
+express their skills.
 
-As in real world: in business or academia it is not just important to do something, but also to be able to take
-responsibility for your actions.
+Our process emphasises the importance of not just doing something, but also being able to present your work and to defend your decisions.
 
-The whole process is broken down into two parts: TA implementation and TA defence.
+The whole process is broken down into two parts: solutioin implementation and solution defence.
 
 Implementation
 --------------
