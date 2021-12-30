@@ -1,4 +1,4 @@
-Home Assignment: The Love Geometry
+Love Geometry - Front-end Challenge
 ==================================
 
 Before working on the assignment we suggest you to read [why do we think](../WHY-TA-DEFENCE.md) that test assignment
@@ -10,17 +10,17 @@ held and what to expect from it.
 Intro
 -----
 
-Here is the Love Geometry project consisting several steps which graded independently. The necessary exercises are
+Here is the Love Geometry challenge, consisting of several steps, which are graded independently. The necessary exercises are
 [Step 1](#step-1-the-language-of-love-and-destruction) and [Step 2](#step-2-show-me-your-love), everything else is
 optional.
 
-By completing each step of this home assignment you proof that you have some valuable feature. So, it's ok to not to
+By completing each step of this home assignment you proof that you have some valuable traits. It's ok not to
 complete all of them.
 
 But note that poor implementation of necessary steps won't give you enough grade. Which means that working on some
 optional stuff may be a wise decision. 
 
-You also may jump over some exercises but since later stages depends on their predecessors you should do it in a smart
+You may also jump over some exercises but since later stages depends on their predecessors you should do it in a smart
 way. What does it mean? That you should somehow mock the incomplete functionality: either by some code stubs or by the
 bold design solution. Feel free to embrace your imagination.
 
