@@ -1,7 +1,7 @@
-Solution Implementatiion & Defence
+Solution Implementation & Defence
 =================================
 
-The idea behind offerring a challenge, followed by an opportunity to present and defend the solution, is to create an environment that helps people to better
+The idea behind offerring a challenge, followed by solution presentation and defend, is to create an environment that helps people to better
 express their skills.
 
 Our process emphasises the importance of not just doing something, but also being able to present your work and to defend your decisions.
