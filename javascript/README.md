@@ -1,7 +1,7 @@
 Love Geometry - Front-end Challenge
 ==================================
 
-Before working on the assignment we suggest you to read [why do we think](../WHY-TA-DEFENCE.md) that test assignment
+Before working on the assignments we suggest to read [why do we think](../WHY-TA-DEFENCE.md) that such a challenge 
 and it's defence is better way for you to express your skills and craftsmanship.
 
 Also please take a look at the document [describing the whole process](../PROCESS.md) to understand how the defence is
